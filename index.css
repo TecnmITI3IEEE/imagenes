@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.home-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.home-container img {
+    box-shadow: 2px 3px 8px 5px #616A6B;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    margin: 10px 10px 10px 10px;
+}
+
+.home-container h3 {
+    text-align: center;
+}
+
+.titulos {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+
+.desc p {
+    text-align: center;
+    font-size: 35px;
+}
+
+.imgIEEE {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.imgRamti {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+/*
+
+  SPINNER LOADER
+
+*/
+
+#root {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lds-heart {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    transform: rotate(45deg);
+    transform-origin: 40px 40px;
+}
+
+.lds-heart div {
+    top: 32px;
+    left: 32px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: yellowgreen;
+    animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.lds-heart div:after,
+.lds-heart div:before {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: red;
+}
+
+.lds-heart div:before {
+    left: -24px;
+    border-radius: 50% 0 0 50%;
+}
+
+.lds-heart div:after {
+    top: -24px;
+    border-radius: 50% 50% 0 0;
+}
+
+@keyframes lds-heart {
+    0% {
+        transform: scale(0.95);
+    }
+    5% {
+        transform: scale(1.1);
+    }
+    39% {
+        transform: scale(0.85);
+    }
+    45% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
