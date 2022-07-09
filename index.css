@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Oswald:wght@300&display=swap');
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -14,27 +15,25 @@ code {
     height: 100vh;
 }
 
-.home-container img {
-    box-shadow: 2px 3px 8px 5px #616A6B;
-    border-radius: 50%;
-    width: 280px;
-    height: 280px;
-    margin: 10px 10px 10px 10px;
-}
-
 .home-container h3 {
     text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .titulos {
     text-align: center;
-    color: white;
-    font-size: 45px;
+    color: #f5deb3;
+    height: 300px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
 }
 
-.desc p {
+.desc {
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
+    font-family: 'Lora', serif;
 }
 
 .imgIEEE {
@@ -46,6 +45,25 @@ code {
 .imgRamti {
     width: 100%;
     display: inline-block;
+    text-align: center;
+}
+
+.imgC {
+    box-shadow: 2px 3px 8px 5px #616A6B;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    margin: 10px 10px 10px 10px;
+}
+
+.redes {
+    text-align: center;
+}
+
+.redes img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
     text-align: center;
 }
 
