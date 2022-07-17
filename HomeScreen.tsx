@@ -15,8 +15,7 @@ import LogoCorreo from '../assets/LogoCorreo.png';
 import tecnm3 from '../assets/tecnm3.png';
 import TecNM_logo from '../assets/TecNM_logo.png';
 
-import IEEEPHOTO1 from "../assets/IEEE1.fad663f4.jpg";
-import RAMI from '../assets/rami.jpg';
+i
 export const HomeScreen = () => {
     return (
         <div className={styles.cabecera}>
