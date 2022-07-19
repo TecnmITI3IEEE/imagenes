@@ -4,13 +4,13 @@
     flex-wrap: wrap;
 }
 
-.in-flex {
+.inFlex {
     flex: 1;
     min-width: 350px;
     min-height: 100%;
 }
 
-.in-flex:first-child {
+.inFlex:first-child{
     flex: 2;
     padding: 15px;
     background-color: white;
@@ -18,7 +18,7 @@
     margin-bottom: 0px;
 }
 
-.in-flex div {
+.inFlex div {
     background-color: white;
     margin: 20px;
 }
@@ -57,7 +57,7 @@
 
 .titulo {
     font-family: 'Metal', cursive;
-    font-size: 55px;
+    font-size: 30px;
     text-align: center;
     color: #00629B;
 }
@@ -88,15 +88,20 @@
     text-align: center;
     background-color: rgb(185, 185, 255);
     border-bottom: 3px solid black;
+
+    
 }
 
 .cabecera h1 {
     display: inline-block;
+    padding: 10px;
+   
 }
 
 .logo {
-    width: 150px;
-    height: 100px;
+    width: 100px;
+    margin:5px;
+   
 }
 
 .lista {
