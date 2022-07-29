@@ -30,13 +30,13 @@ export const ControllerScreeen = () => {
         <>
 
         <main className={styles.mainContainer}>
-                <div class={styles.containerG}>
-                    <div class={styles.cabecera}>
+                <div className={styles.containerG}>
+                    <div className={styles.cabecera}>
                         <img src={tecnm3} alt="" class={styles.logos}/>
                         <img src={IEEEIztapalapaIII} alt="" class={styles.logos}/>
                         <img src={IEEEHombres} alt="" class={styles.logos}/>
                         <img src={IEEEWoman} alt="" class={styles.logos}/>
-                        <br>
+                        
                         <h1>Adminstradores</h1>
                     </div>
                 <div class={styles.ContainerItems}>
