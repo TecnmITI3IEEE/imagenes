@@ -29,33 +29,33 @@ export const ControllerScreeen = () => {
     return (
         <>
 
-        <main className={styles.mainContainer}>
-                <div className={styles.containerG}>
-                    <div className={styles.cabecera}>
-                        <img src={tecnm3} alt="" class={styles.logos}/>
-                        <img src={IEEEIztapalapaIII} alt="" class={styles.logos}/>
-                        <img src={IEEEHombres} alt="" class={styles.logos}/>
-                        <img src={IEEEWoman} alt="" class={styles.logos}/>
+        <main classNameName={styles.mainContainer}>
+                <div classNameName={styles.containerG}>
+                    <div classNameName={styles.cabecera}>
+                        <img src={tecnm3} alt="" className={styles.logos}/>
+                        <img src={IEEEIztapalapaIII} alt="" className={styles.logos}/>
+                        <img src={IEEEHombres} alt="" className={styles.logos}/>
+                        <img src={IEEEWoman} alt="" className={styles.logos}/>
                         
                         <h1>Adminstradores</h1>
                     </div>
-                <div class={styles.ContainerItems}>
+                <div className={styles.ContainerItems}>
 
-                    <div class={styles.Controles}>
+                    <div className={styles.Controles}>
                         <a href="">
-                            <img src={controles} alt="" class={styles.iconos}/>
+                            <img src={controles} alt="" className={styles.iconos}/>
                         </a>
 
                     </div>
-                    <div class={styles.Sensores}>
+                    <div className={styles.Sensores}>
                         <a href="">
-                            <img src={sensores} alt="" class={styles.iconos}/>
+                            <img src={sensores} alt="" className={styles.iconos}/>
                         </a>
 
                     </div>
-                    <div class={styles.inicioPage}>
+                    <div className={styles.inicioPage}>
                         <a href="">
-                            <img src={inicio} alt="" class={styles.iconos}/>
+                            <img src={inicio} alt="" className={styles.iconos}/>
                         </a>
 
                     </div>
