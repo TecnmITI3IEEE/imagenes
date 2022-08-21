@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.containerG {
+    text-align: center;
+}
+
+.temperatura {
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    display: inline-block;
+    margin: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.oxigenacion {
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    display: inline-block;
+    margin: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.presion {
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    display: inline-block;
+    margin: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+b {
+    margin: 0px auto;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.cabecera {
+    box-shadow: 5px 5px 5px gray;
+    border-bottom: 5px solid black;
+    text-align: center;
+}
+
+.logos {
+    width: 130px;
+}
+
+button {
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 5px gray;
+    border: 2px solid black;
+    width: 100px;
+    height: 40px;
+}
+
+.containerItems {
+    margin: 30px;
+}
